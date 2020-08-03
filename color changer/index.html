@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            title
+        </title>
+        <style type="text/css" rel="stylesheet">
+            .purple
+            {
+                background-color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <button>Click Me!!</button>
+        <script type="text/javascript">
+            var button= document.querySelector("button");
+
+            button.addEventListener("click", function colortoggle(){
+                document.body.classList.toggle("purple");
+            });
+            
+        </script> 
+        
+        
+    </body>
+</html>

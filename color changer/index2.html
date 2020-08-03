@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            title
+        </title>
+        <style type="text/css" rel="stylesheet">
+            .purple
+            {
+                background-color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <button>Click Me!!</button>
+        <script type="text/javascript">
+            var button= document.querySelector("button");
+            var body= document.querySelector("body");
+            button.addEventListener("click", colortoggle);
+            function colortoggle()
+            {
+                body.classList.toggle("purple");
+                //dont add class name to body. It is automatically done using toggle
+            }
+        </script> 
+        
+        
+        
+    </body>
+</html>
