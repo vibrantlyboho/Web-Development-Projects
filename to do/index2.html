@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            title
+        </title>
+        <style>
+            .done{
+                opacity: 0.5;
+                text-decoration: line-through;
+            }
+            .selected
+            {
+                color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Do calligraphy</li>
+            <li>Do watercolor</li>
+            <li>Gardening</li>
+        </ul>
+
+
+        <script type="text/javascript">
+            var lis=document.querySelectorAll("li");
+            for(var i=0; i<lis.length; i++){
+                lis[i].addEventListener("mouseover", function(){
+                this.classList.add("selected");
+            });
+            lis[i].addEventListener("mouseout", function(){
+                this.classList.remove("selected");
+            });
+            lis[i].addEventListener("click", function(){
+                this.classList.toggle("done");
+            });
+            }
+        </script>
+    </body>
+</html>

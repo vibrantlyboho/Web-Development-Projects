@@ -1,0 +1,19 @@
+https://code.visualstudio.com/docs/azure/mongodb
+
+Enter a connection string to the database, 
+the default is your local MongoDB server at mongodb://127.0.0.1:27017. 
+You can enter any connection string, to local or remote MongoDB servers.
+
+
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+
+The MongoDB service is started upon successful installation [1].
+
+To begin using MongoDB, connect a mongo.exe shell to the running MongoDB instance. Either:
+
+From Windows Explorer/File Explorer, 
+go to C:\Program Files\MongoDB\Server\4.2\bin\ directory and double-click on mongo.exe.
+
+Or, open a Command Interpreter with Administrative privileges and run:
+
+"C:\Program Files\MongoDB\Server\4.2\bin\mongo.exe"
